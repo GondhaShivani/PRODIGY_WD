@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Style for the list */
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Style for each list item */
+#navbar ul li {
+  float: left;
+}
+
+/* Style for the links */
+#navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+#navbar ul li a:hover {
+  background-color: #555;
+}
+
+#content {
+  margin-top: 50px; /* Adjust margin to avoid content being hidden under the fixed navbar */
+  padding: 20px;
+  height: 2000px; /* Just for demonstration */
+}
